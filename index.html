@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="game">
+      <div class="background"></div>
+      <div id="character"></div>
+      <div id="score"></div>
+
+      <div id="game-over">
+        <button id="gameOverReset" onclick="restartGame()">Start game</button>
+      </div>
+    </section>
+
+    <script src="./logics/gameGrid.js" defer></script>
+    <script src="./logics/movement.js" defer></script>
+    <script src="./logics/rules.js" defer></script>
+    <script src="./logics/snake.js" defer></script>
+    <script src="./logics/berry.js" defer></script>    
+
+  </body>
+</html>
